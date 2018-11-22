@@ -20,6 +20,7 @@
     height: 379px;
     width: 100%;
 }
+
 #block5 {
     background-image: url("../../imgs/cable-daylight-garden-942540.jpg");
     background-repeat: no-repeat;
@@ -27,10 +28,14 @@
     height: 588px;
     width: 100%;
 }
-#block6 {
-    height: 210px;
-    width: 100%;
+#block5 p {
+    color: #00b7ed;
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    font-size: 48pt;
+    margin: 0;
 }
+
 #block7 {
     background-image: url("../../imgs/adult-architect-blueprint-416405.jpg");
     background-repeat: no-repeat;
@@ -38,7 +43,39 @@
     height: 588px;
     width: 100%;
 }
-#block8 {
+#block7 p {
+    color: #00b7ed;
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    font-size: 48pt;
+    margin: 0;
+}
+#btn_block {
     height: 210px;
     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#btn_block p {
+    font-family: Montserrat, sans-serif;
+    color: #00b7ed;
+    font-size: 30pt;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+}
+
+#btn_block button {
+    color: #FFFFFF;
+    text-align: center;
+    background-color: #00b7ed;
+    border: none;
+    border-radius: 12px;
+    padding: 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14pt;
+    font-family: Montserrat, sans-serif;
 }
