@@ -10,7 +10,9 @@ export default class Launch extends Component {
         <Header />
         <div id="block1">   
         </div>
-        <div id="block2">   
+        <div id="block2">  
+          <p><strong>DOWNLOAD THE APP</strong></p> 
+          <div id="copy_txt"><strong>TAG</strong> makes it easy to find temps from multiple agencies in one place. Download the app and get to work!</div>
         </div>
         <div id="block3">
         </div>
