@@ -2,13 +2,15 @@ import React, { Component } from 'react'
 import Footer from '../../components/Footer';
 import Header from '../../components/Header';
 import './launch.css';
+import logo from '../../imgs/people_blue.png';
 
 export default class Launch extends Component {
   render() {
     return (
       <div>
         <Header />
-        <div id="block1">   
+        <div id="block1"> 
+          {/*<img src={logo} alt="Main Color Logo" />*/}
         </div>
         <div id="block2">  
           <p><strong>DOWNLOAD THE APP</strong></p> 
