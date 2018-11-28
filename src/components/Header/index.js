@@ -1,6 +1,6 @@
 import React from 'react'
 import './header.css';
-import logo_white from '../../imgs/people_white.png';
+import logo_white from '../../imgs/logo_white.png';
 
 export default function Header() {
   return (

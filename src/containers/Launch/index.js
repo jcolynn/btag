@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import Footer from '../../components/Footer';
 import Header from '../../components/Header';
 import './launch.css';
-import logo from '../../imgs/people_blue.png';
+import logo from '../../imgs/logo_blue.png';
 
 export default class Launch extends Component {
   render() {
