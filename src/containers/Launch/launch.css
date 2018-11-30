@@ -1,3 +1,9 @@
+body {
+    max-width: 1366px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #block1 {
     background-image: url("../../imgs/pipes_background.jpeg");
     background-repeat: no-repeat;
@@ -7,7 +13,46 @@
     height: 764px;
     width: 100%;
 }
-
+#block1 button {
+    color: #00b7ed;
+    text-align: center;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 12px;
+    padding: 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14pt;
+    font-weight: light;
+    font-family: 'Montserrat', sans-serif;
+    width: 212px;
+    height: 55px;
+    line-height: 16.8pt;
+}
+#block1 p {
+    line-height: 36pt;
+    font-size: 30pt;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #FFFFFF;
+}
+#block1 h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 65pt;
+    font-weight: bold;
+    line-height: 86pt;
+    text-align: center;
+    color: #00b7ed;
+}
+#block1 img {
+    height: 207px;
+    width: 362px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#hero {
+    padding-top: 118px;
+}
 #block2 {
     background-color: #00b7ed;
     height: 376px;
@@ -16,14 +61,14 @@
 #block2 p {
     color: #FFFFFF;
     text-align: center;
-    font-family: Montserrat, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 36pt;
     margin: 0;
 }
 #copy_txt {
     color: #FFFFFF;
     text-align: center;
-    font-family: Montserrat, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 20pt;
     margin: 0;
 }
@@ -45,10 +90,10 @@
     height: 588px;
     width: 100%;
 }
-#block5 p {
+#block5 h3 {
     color: #00b7ed;
     text-align: center;
-    font-family: Montserrat, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 48pt;
     margin: 0;
 }
@@ -61,10 +106,10 @@
     height: 588px;
     width: 100%;
 }
-#block7 p {
+#block7 h3 {
     color: #00b7ed;
     text-align: center;
-    font-family: Montserrat, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 48pt;
     margin: 0;
 }
@@ -77,7 +122,7 @@
     align-items: center;
 }
 #btn_block p {
-    font-family: Montserrat, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #00b7ed;
     font-size: 30pt;
     text-align: center;
@@ -95,5 +140,5 @@
     text-decoration: none;
     display: inline-block;
     font-size: 14pt;
-    font-family: Montserrat, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }

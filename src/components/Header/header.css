@@ -3,11 +3,12 @@ header {
     color: #FFFFFF;
     position: fixed;
     top: 0;
-    left: 0;
     height: 80px;
-    width: 100%;
+    width: 1366px;
     padding: 0;
-    margin: 0;
+    margin-right: auto;
+    margin-left: auto;
+
 }
 img {
     display: block;
