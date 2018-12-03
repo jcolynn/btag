@@ -3,3 +3,13 @@ footer {
     height: 196px;
     width: 100%;
 }
+#social_icon {
+    color: white;
+    font-size: 40px;
+}
+.copyright {
+    color: white;
+}
+.foot_font {
+    color:  #FFFFFF;
+}
