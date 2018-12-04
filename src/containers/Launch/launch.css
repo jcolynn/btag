@@ -1,5 +1,7 @@
+/*Element Level Styling to set max and min width and margins above max width*/
 body {
     max-width: 1366px;
+    min-width: 320px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -141,4 +143,38 @@ body {
     display: inline-block;
     font-size: 14pt;
     font-family: 'Montserrat', sans-serif;
+}
+#container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#container p {
+    font-size: 18pt;
+    font-family: 'Montserrat', sans-serif;
+    color: #00b7ed;
+    text-align: center;
+    display: block;
+    width: 238px;
+    height: 32%;
+}
+#container img {
+    height: 68%;
+    width: 238px;
+}
+#frame {
+    display: block;
+    height: 263px;
+    width: 238px;
+}
+#store_buttons {
+
+}
+#store_buttons img {
+    display: block;
+    padding: 0;
+    height: 83px;
+    width: 280px;
 }
