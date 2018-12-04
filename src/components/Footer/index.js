@@ -5,13 +5,20 @@ export default function Footer() {
   return (
     <div>
       <footer>  
-        <div>
+        <div class="top">
           {/* Left Links */}
-
+          <div class="link_box">
+            <p id="links">Create an Account</p>
+            <p id="links">How TAG Works</p>
+            <p id="links">Contact Us</p>
+          </div>
+          
           {/* Footer Logo */}
-
+          <div class="logo_box">
+            <img class="logo" src={require('../../imgs/logo_white.png')} alt="logo" />
+          </div>
           {/* Social Icon Box */}
-          <div>
+          <div class="social_box">
             <span id="social_icon">  
               <i class="fab fa-facebook"></i>
             </span>
@@ -25,7 +32,7 @@ export default function Footer() {
         </div>
 
         {/* Copyright Info Footer */}
-        <div>
+        <div class="bottom">
           <span class="copyright"><i class="far fa-copyright"></i></span>
           <span class="foot_font"> 2018, Temporary Assistance Guru. All Rights Reserved. | Terms of Use | Privacy Policy</span>
         </div>
