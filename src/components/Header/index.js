@@ -1,12 +1,19 @@
 import React from 'react'
 import './header.css';
-import logo_white from '../../imgs/logo_white.png';
+
 
 export default function Header() {
   return (
-    <div>
+    <div> 
       <header>  
-        <img src={logo_white} alt="White Colored Logo"/>
+        <div id="left_links">
+          <a href="http://localhost:3000" class="header_link">HOME</a>
+          <a href="http://localhost:3000" class="header_link">CONTACT US</a>
+        </div>
+        <img class="head_logo" src={require("../../imgs/logo_white.png")} alt="White Colored Logo"/>
+        <div id="right_links">
+          <a href="http://localhost:3000" class="header_link">LOGIN</a>
+        </div>
       </header>
     </div>
   )

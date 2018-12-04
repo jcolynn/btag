@@ -8,11 +8,47 @@ header {
     padding: 0;
     margin-right: auto;
     margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: center;
 
 }
-img {
+
+/* Main Logo */
+.head_logo {
     display: block;
-    height: 60px;
+    height: 50px;
     width: 100px;
-    margin: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* Link Styles for Desktop Viewport */
+#left_links {
+    width: 250px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    margin-left: 35px;
+    margin-top: 30px;
+
+}
+
+#right_links {
+    width: 250px;
+    margin-right: 35px;
+    margin-top: 30px;
+}
+
+.header_link {
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14pt;
+    text-decoration: none;
 }
