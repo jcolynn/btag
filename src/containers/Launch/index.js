@@ -10,9 +10,9 @@ export default class Launch extends Component {
       <div>
         <Header />
 
-        {/*Main Logo Block */}
-        <div id="block1"> 
-          <div id="hero">
+        {/* Hero Card */}
+        <div id="hero"> 
+          <div>
             <img src={require('../../imgs/logo_blue.png')} alt="Main Color Logo" />
             <h1><strong>TEMPORARY ASSISTANCE GURU</strong></h1>
             <p>Connecting temp agencies to hiring businesses.</p>
@@ -23,8 +23,8 @@ export default class Launch extends Component {
           </div>
         </div>
 
-        {/*App Download Block */}
-        <div id="block2">  
+        {/* App Card */}
+        <div id="app_card">  
           <p><strong>DOWNLOAD THE APP</strong></p> 
           <div id="copy_txt"><strong>TAG</strong> makes it easy to find temps from multiple agencies in one place. Download the app and get to work!</div>
           <div id="store_buttons">
@@ -33,14 +33,14 @@ export default class Launch extends Component {
           </div>
         </div>
 
-        {/*Reviews Section */}
-        <div id="block3">
+        {/* Review Cards */}
+        <div id="review_card">
         </div>
-        <div id="block4">
+        <div id="review_card" className="bbackground">
         </div>
 
 
-        <div id="block5">
+        <div className="expo_card">
           <h3><strong>TEMPORARY STAFFING</strong></h3>
           <div id="container">
             <div id="frame"> 
@@ -64,13 +64,13 @@ export default class Launch extends Component {
         </div>
 
         {/*Seperator */}
-        <div id="btn_block">
+        <div className="join_card">
           <p>See the difference <strong>TAG</strong> can make in your office.</p>
           <button>Let's Get Started</button>
         </div>
 
 
-        <div id="block7">
+        <div className="expo_card">
           <h3><strong>HIRING EMPLOYERS</strong></h3>
           <div id="container">
             <div id="frame"> 
@@ -93,7 +93,7 @@ export default class Launch extends Component {
         </div>
 
         {/*Seperator */}
-        <div id="btn_block">
+        <div className="join_card">
           <p><strong>TAG</strong> makes finding staff simple.</p>
           <button>Let's Get Started</button>
         </div>

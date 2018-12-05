@@ -6,14 +6,11 @@ body {
     margin-right: auto;
 }
 
-img {
-    display: block;
-    height: 60px;
-    width: 100px;
-    margin: auto;
-}
-
-#block1 {
+/* Desktop Viewport */
+/***** 
+Hero Card
+******/
+#hero {
     background-image: url("../../imgs/pipes_background.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -21,8 +18,9 @@ img {
     box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
     height: 764px;
     width: 100%;
+    padding-top: 118px;
 }
-#block1 button {
+#hero button {
     color: #00b7ed;
     text-align: center;
     background-color: #FFFFFF;
@@ -38,14 +36,14 @@ img {
     height: 55px;
     line-height: 16.8pt;
 }
-#block1 p {
+#hero p {
     line-height: 36pt;
     font-size: 30pt;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     color: #FFFFFF;
 }
-#block1 h1 {
+#hero h1 {
     font-family: 'Poppins', sans-serif;
     font-size: 65pt;
     font-weight: bold;
@@ -53,21 +51,24 @@ img {
     text-align: center;
     color: #00b7ed;
 }
-#block1 img {
+#hero img {
     height: 207px;
     width: 362px;
     margin-right: auto;
     margin-left: auto;
+    display: block;
 }
-#hero {
-    padding-top: 118px;
-}
-#block2 {
+
+/*****
+App Card
+*****/
+
+#app_card {
     background-color: #00b7ed;
     height: 376px;
     width: 100%;
 }
-#block2 p {
+#app_card p {
     color: #FFFFFF;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
@@ -81,17 +82,30 @@ img {
     font-size: 20pt;
     margin: 0;
 }
-#block3 {
-    height: 379px;
-    width: 100%;
-}
-#block4 {
-    background-color: #00b7ed;
-    height: 379px;
-    width: 100%;
+#store_buttons img {
+    display: block;
+    padding: 0;
+    height: 83px;
+    width: 280px;
 }
 
-#block5 {
+/*****
+Review Cards
+*****/
+
+#review_card {
+    height: 379px;
+    width: 100%;
+}
+.bbackground {
+    background-color: #00b7ed;
+}
+
+/*****
+Expo Cards
+*****/
+
+.expo_card {
     background-image: url("../../imgs/workers.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -99,14 +113,13 @@ img {
     height: 588px;
     width: 100%;
 }
-#block5 h3 {
+.expo_card h3 {
     color: #00b7ed;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 48pt;
     margin: 0;
 }
-
 #block7 {
     background-image: url("../../imgs/table_workers.jpg");
     background-repeat: no-repeat;
@@ -114,42 +127,6 @@ img {
     box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
     height: 588px;
     width: 100%;
-}
-#block7 h3 {
-    color: #00b7ed;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 48pt;
-    margin: 0;
-}
-#btn_block {
-    height: 210px;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-#btn_block p {
-    font-family: 'Montserrat', sans-serif;
-    color: #00b7ed;
-    font-size: 30pt;
-    text-align: center;
-    width: 100%;
-    margin: 0;
-}
-
-#btn_block button {
-    color: #FFFFFF;
-    text-align: center;
-    background-color: #00b7ed;
-    border: none;
-    border-radius: 12px;
-    padding: 20px;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 14pt;
-    font-family: 'Montserrat', sans-serif;
 }
 #container {
     display: flex;
@@ -176,12 +153,110 @@ img {
     height: 263px;
     width: 238px;
 }
-#store_buttons {
 
+/*****
+Join Cards
+*****/
+
+.join_card {
+    height: 210px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
-#store_buttons img {
-    display: block;
-    padding: 0;
-    height: 83px;
-    width: 280px;
+.join_card p {
+    font-family: 'Montserrat', sans-serif;
+    color: #00b7ed;
+    font-size: 30pt;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+}
+
+.join_card button {
+    color: #FFFFFF;
+    text-align: center;
+    background-color: #00b7ed;
+    border: none;
+    border-radius: 12px;
+    padding: 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14pt;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media screen and (max-width: 960px) {
+    body {
+        width: 100%;
+    }
+    #hero {
+        width: 100%;
+        height: 304px;
+    }
+    #hero img {
+        width: 116px;
+        height: 66px;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+    }
+    #hero p {
+        line-height: 16pt;
+        font-size: 14pt;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    #hero h1 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 22pt;
+        font-weight: bold;
+        line-height: 26pt;
+        text-align: center;
+        color: #00b7ed;
+    }
+    #hero button {
+        display: none;
+    }
+    #app_card {
+        display: none;
+    }
+    #container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        flex-grow: 1;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 90vh;
+    }
+    
+    #container p {
+        font-size: 14pt;
+        width: 252px;
+    }
+    #container img { 
+        height: 58px;
+        width: 67px;
+    }
+    .expo_card {
+        background-image: url("../../imgs/workers.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
+        height: 754px;
+        width: 100%;
+    }
+    .expo_card h3 { 
+        font-size: 20pt;
+        line-height: 24pt;
+    }
+    #frame {
+        display: block;
+        height: 110px;
+        width: 252px;
+    }
 }
