@@ -29,12 +29,11 @@ Hero Card
     padding: 20px;
     text-decoration: none;
     display: inline-block;
-    font-size: 14pt;
+    font-size: 12pt;
     font-weight: light;
     font-family: 'Montserrat', sans-serif;
     width: 212px;
     height: 55px;
-    line-height: 16.8pt;
 }
 #hero p {
     line-height: 36pt;
@@ -57,6 +56,13 @@ Hero Card
     margin-right: auto;
     margin-left: auto;
     display: block;
+}
+.btn_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
 }
 
 /*****
@@ -82,10 +88,15 @@ App Card
     font-size: 20pt;
     margin: 0;
 }
+#store_buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
 #store_buttons img {
     display: block;
-    padding: 0;
-    height: 83px;
+    height: 55px;
     width: 280px;
 }
 
@@ -99,6 +110,17 @@ Review Cards
 }
 .bbackground {
     background-color: #00b7ed;
+}
+.round_img {
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+}
+.blue {
+    border: 7px solid #00b7ed;
+}
+.white {
+    border: 7px solid #FFFFFF;
 }
 
 /*****

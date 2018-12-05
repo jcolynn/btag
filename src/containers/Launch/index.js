@@ -17,7 +17,7 @@ export default class Launch extends Component {
             <h1><strong>TEMPORARY ASSISTANCE GURU</strong></h1>
             <p>Connecting temp agencies to hiring businesses.</p>
           </div>
-          <div>
+          <div className="btn_container">
             <button>I'M A TEMP AGENCY</button>
             <button>I WANT TO HIRE</button>
           </div>
@@ -27,16 +27,18 @@ export default class Launch extends Component {
         <div id="app_card">  
           <p><strong>DOWNLOAD THE APP</strong></p> 
           <div id="copy_txt"><strong>TAG</strong> makes it easy to find temps from multiple agencies in one place. Download the app and get to work!</div>
-          <div id="store_buttons">
-            <img src={require('../../imgs/apple.svg')} alt="Apple Store Link" />
-            <img src={require('../../imgs/google-play-badge.eps')} alt="Google Play Store Link" />
-          </div>
+          {/*<div id="store_buttons">
+            <img src={require('../../imgs/drawing.svg')} alt="Apple Store Link" />
+            <img src={require('../../imgs/google-play-badge.svg')} alt="Google Play Store Link" />
+    </div>*/}
         </div>
 
         {/* Review Cards */}
         <div id="review_card">
+          <img src={require('../../imgs/guy_review.jpg')} alt="Guy Review" className="round_img blue"/>
         </div>
         <div id="review_card" className="bbackground">
+          <img src={require('../../imgs/girl_review.png')} alt="Girl Review" className="round_img white"/>
         </div>
 
 
