@@ -3,6 +3,8 @@ import { Router } from "@reach/router";
 
 import Launch from './containers/Launch';
 import NotFound from './containers/NotFound';
+import Contact from './containers/Contact';
+import Login from './containers/Login';
 import './App.css';
 
 class App extends Component {
@@ -12,6 +14,8 @@ class App extends Component {
         <Router>
           <Launch path="/" />
           <NotFound default />
+          <Contact path="/contactus" />
+          <Login path="/login" />
         </Router>
       </div>
     );
