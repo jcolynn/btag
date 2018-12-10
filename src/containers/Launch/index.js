@@ -43,7 +43,7 @@ export default class Launch extends Component {
 
 
         <div className="expo_card">
-          <h3><strong>TEMPORARY STAFFING</strong></h3>
+          <h3>TEMPORARY STAFFING</h3>
           <div id="container">
             <div id="frame"> 
               <img src={require('../../imgs/phone_notify.png')} alt="Phone Icon" />
@@ -73,7 +73,7 @@ export default class Launch extends Component {
 
 
         <div className="expo_card">
-          <h3><strong>HIRING EMPLOYERS</strong></h3>
+          <h3>HIRING EMPLOYERS</h3>
           <div id="container">
             <div id="frame"> 
               <img src={require('../../imgs/building_loc.png')} alt="Building Icon" />

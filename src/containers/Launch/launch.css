@@ -132,6 +132,7 @@ Expo Cards
     background-repeat: no-repeat;
     background-size: 100% 100%;
     box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
+    box-sizing: border-box;
     height: 588px;
     width: 100%;
 }
@@ -139,8 +140,11 @@ Expo Cards
     color: #00b7ed;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
     font-size: 48pt;
-    margin: 0;
+    line-height: 57.6pt;
+    margin: auto;  
+    padding: 25px 0 25px 0;
 }
 #block7 {
     background-image: url("../../imgs/table_workers.jpg");
@@ -155,25 +159,31 @@ Expo Cards
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+    height: calc(100% - 126px);
 }
 #container p {
-    font-size: 18pt;
+    font-size: 16pt;
     font-family: 'Montserrat', sans-serif;
     color: #00b7ed;
     text-align: center;
-    display: block;
-    width: 238px;
     height: 32%;
+    width: 238.133px;
+    box-sizing: border-box;
 }
 #container img {
     height: 68%;
     width: 238px;
 }
 #frame {
-    display: block;
-    height: 263px;
-    width: 238px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: calc((100%-304px) / 4);
 }
 
 /*****
