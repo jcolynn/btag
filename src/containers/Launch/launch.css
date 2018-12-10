@@ -107,9 +107,21 @@ Review Cards
 #review_card {
     height: 379px;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-right: auto;
+    margin-left: auto;
+}
+.review_contents {
+    font-family: 'Montserrat';
+    font-size: 14pt;
+    width: 500px;
 }
 .bbackground {
     background-color: #00b7ed;
+    color: #FFFFFF;
 }
 .round_img {
     border-radius: 50%;

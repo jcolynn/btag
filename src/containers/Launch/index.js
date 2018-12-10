@@ -36,9 +36,29 @@ export default class Launch extends Component {
         {/* Review Cards */}
         <div id="review_card">
           <img src={require('../../imgs/guy_review.jpg')} alt="Guy Review" className="round_img blue"/>
+          <div className="review_contents"> 
+            <div> 
+              <h5>Jack, 27</h5>
+              <h6><em>Company Name</em></h6>
+            </div>
+            <blockquote>
+            <span>&#10077;</span>Before I found TAG, I was managing as many as seven different agencies to fill my needs. 
+              Now, I can still work with multiple agencies, but managing is easy because they’re all in one place.<span>&#10078;</span>
+            </blockquote>
+          </div>
         </div>
+
         <div id="review_card" className="bbackground">
           <img src={require('../../imgs/girl_review.png')} alt="Girl Review" className="round_img white"/>
+          <div className="review_contents"> 
+            <div> 
+              <h5>Emily, 21</h5>
+              <h6><em>Company Name</em></h6>
+            </div>
+            <blockquote>
+            <span>&#10077;</span>With TAG, I can find more jobs for my business and my customers like the interface and how easy is is to use.<span>&#10078;</span>
+            </blockquote>
+          </div>
         </div>
 
 
