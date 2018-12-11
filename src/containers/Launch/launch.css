@@ -4,6 +4,8 @@ body {
     min-width: 320px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 /* Desktop Viewport */
@@ -76,19 +78,20 @@ App Card
     background-color: #00b7ed;
     height: 376px;
     width: 100%;
+    padding-top: 50px;
 }
 #app_card p {
     color: #FFFFFF;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    font-size: 36pt;
+    font-size: 34pt;
     margin: 0;
 }
 #copy_txt {
     color: #FFFFFF;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    font-size: 20pt;
+    font-size: 18pt;
     margin: 0;
 }
 #store_buttons {
@@ -117,10 +120,30 @@ Review Cards
     margin-right: auto;
     margin-left: auto;
 }
+#review_card h6 {
+    margin-top: 10px;
+    font-size: 14pt;
+}
+#review_card h5 {
+    margin-bottom: 10px;
+    font-size: 18pt;
+}
+#review_card span {
+    display: inline-block;
+    font-family: 'Monoserrat';
+    font-size: 24pt;
+}
 .review_contents {
     font-family: 'Montserrat';
     font-size: 14pt;
+    line-height: 20pt;
     width: 500px;
+}
+.bluetext {
+    color: #00b7ed;
+}
+.info {
+    margin-left: 40px;
 }
 .bbackground {
     background-color: #00b7ed;

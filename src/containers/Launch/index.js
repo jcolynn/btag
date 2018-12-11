@@ -17,7 +17,7 @@ export default class Launch extends Component {
             <h1><strong>TEMPORARY ASSISTANCE GURU</strong></h1>
             <p>Connecting temp agencies to hiring businesses.</p>
           </div>
-          <div className="btn_container">
+          <div className="btn_container"> 
             <button>I'M A TEMP AGENCY</button>
             <button>I WANT TO HIRE</button>
           </div>
@@ -36,8 +36,8 @@ export default class Launch extends Component {
         {/* Review Cards */}
         <div id="review_card">
           <img src={require('../../imgs/guy_review.jpg')} alt="Guy Review" className="round_img blue"/>
-          <div className="review_contents"> 
-            <div> 
+          <div className="review_contents bluetext"> 
+            <div className="info"> 
               <h5>Jack, 27</h5>
               <h6><em>Company Name</em></h6>
             </div>
@@ -49,16 +49,16 @@ export default class Launch extends Component {
         </div>
 
         <div id="review_card" className="bbackground">
-          <img src={require('../../imgs/girl_review.png')} alt="Girl Review" className="round_img white"/>
           <div className="review_contents"> 
-            <div> 
+            <div className="info"> 
               <h5>Emily, 21</h5>
               <h6><em>Company Name</em></h6>
             </div>
             <blockquote>
-            <span>&#10077;</span>With TAG, I can find more jobs for my business and my customers like the interface and how easy is is to use.<span>&#10078;</span>
+              <span>&#10077;</span>With TAG, I can find more jobs for my business and my customers like the interface and how easy is is to use.<span>&#10078;</span>
             </blockquote>
           </div>
+          <img src={require('../../imgs/girl_review.png')} alt="Girl Review" className="round_img white"/>
         </div>
 
 
