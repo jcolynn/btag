@@ -1,4 +1,5 @@
 import React from 'react';
+
 import "./footer.css";
 
 export default function Footer() {
@@ -16,7 +17,10 @@ export default function Footer() {
           {/* Footer Logo */}
           <div className="logo_box">
             <img className="logo" src={require('../../imgs/logo_white.png')} alt="logo" />
+            <div className="logo_text">TAG</div>
+            <div className="name">Temporary Assistance Guru</div>
           </div>
+
           {/* Social Icon Box */}
           <div className="social_box">
             <span id="social_icon">  

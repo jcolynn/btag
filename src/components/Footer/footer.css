@@ -13,7 +13,7 @@ footer {
     flex-direction: row;
     justify-content: space-between;
     padding-right: 85px;
-    padding-top: 75px;
+    padding-top: 60px;
     width: 177px;
 }
 .copyright {
@@ -46,26 +46,32 @@ footer {
 .link_box {
     width: 176px;
     padding-left: 75px;
-    padding-top: 60px;
+    padding-top: 45px;
+}
+
+.logo_box {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
 }
 .logo {
-    width: 120px;
-    height: 50px;
-}
-.logo_box {
-    padding-top: 20px;
+    width: 84px;
+    height: 35px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
 }
 .logo_text {
     font-family: 'Poppins', sans-serif;
-    font-size: 60pt;
+    font-size: 42pt;
     font-weight: lighter;
     color: #FFFFFF;
-    padding-top: 0em;
-    height: 50px;
 }
 .name {
     color: white;
     font-family: 'Poppins', sans-serif;
     font-size: 10pt;
-    height: 11px;
 }
