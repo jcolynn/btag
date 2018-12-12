@@ -32,7 +32,7 @@ Hero Card
     text-decoration: none;
     display: inline-block;
     font-size: 12pt;
-    font-weight: light;
+    font-weight: lighter;
     font-family: 'Montserrat', sans-serif;
     width: 212px;
     height: 55px;
@@ -67,7 +67,9 @@ Hero Card
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    width: 100%;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 /*****
