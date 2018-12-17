@@ -1,13 +1,22 @@
 import React, { Component } from 'react';
-import './App.css';
+import { Router } from "@reach/router";
+
+import Launch from './containers/Launch';
+import NotFound from './containers/NotFound';
+import Contact from './containers/Contact';
+import Login from './containers/Login';
+
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <h1>The Start</h1>
-        </header>
+      <div>
+        <Router>
+          <Launch path="/" />
+          <NotFound default />
+          <Contact path="/contactus" />
+          <Login path="/login" />
+        </Router>
       </div>
     );
   }

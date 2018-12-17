@@ -1,0 +1,63 @@
+footer {
+    background-color: #00b7ed;
+    height: 196px;
+    width: 100%;
+}
+#social_icon {
+    color: white;
+    font-size: 43px;
+}
+.social_box {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 85px;
+    padding-top: 60px;
+    width: 177px;
+}
+.copyright {
+    color: white;
+}
+.foot_font {
+    color:  #FFFFFF;
+}
+.top {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    height: 161px;
+}
+.bottom {
+    display: block;
+    position: relative;
+    text-align: center;
+    height: 35px;
+    width: 100%;
+    bottom: 0;
+}
+#links {
+    color: white;
+    font-size: 10pt;
+    line-height: 12pt;
+    font-family: 'Poppins', sans-serif;
+}
+.link_box {
+    width: 176px;
+    padding-left: 75px;
+    padding-top: 45px;
+}
+
+/* Center Logo in Footer */
+.logo_box {
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+.logo {
+    width: 180px;
+    height: 140px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+}
