@@ -27,10 +27,10 @@ export default class Launch extends Component {
         <div id="app_card">  
           <p><strong>DOWNLOAD THE APP</strong></p> 
           <div id="copy_txt"><strong>TAG</strong> makes it easy to find temps from multiple agencies in one place. Download the app and get to work!</div>
-          {/*<div id="store_buttons">
-            <img src={require('../../imgs/drawing.svg')} alt="Apple Store Link" />
-            <img src={require('../../imgs/google-play-badge.svg')} alt="Google Play Store Link" />
-    </div>*/}
+          <div id="store_buttons">
+            <img src={require('../../imgs/apple.png')} alt="Apple Store Link" />
+            <img src={require('../../imgs/google.png')} alt="Google Play Store Link" />
+          </div>
         </div>
 
         {/* Review Cards */}

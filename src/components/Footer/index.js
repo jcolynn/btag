@@ -18,9 +18,7 @@ export default function Footer() {
             
             {/* Footer Logo */}
             <div className="logo_box">
-              <img className="logo" src={require('../../imgs/logo_white.png')} alt="logo" />
-              <div className="logo_text">TAG</div>
-              <div className="name">Temporary Assistance Guru</div>
+              <img className="logo" src={require('../../imgs/footer_logo.png')} alt="logo" />
             </div>
 
             {/* Social Icon Box */}

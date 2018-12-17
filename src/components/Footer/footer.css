@@ -49,29 +49,15 @@ footer {
     padding-top: 45px;
 }
 
+/* Center Logo in Footer */
 .logo_box {
     padding-top: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     box-sizing: border-box;
 }
 .logo {
-    width: 84px;
-    height: 35px;
+    width: 180px;
+    height: 140px;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 0;
-}
-.logo_text {
-    font-family: 'Poppins', sans-serif;
-    font-size: 42pt;
-    font-weight: lighter;
-    color: #FFFFFF;
-}
-.name {
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    font-size: 10pt;
 }

@@ -97,6 +97,7 @@ App Card
     margin: 0;
 }
 #store_buttons {
+    padding-top: 60px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -104,7 +105,7 @@ App Card
 }
 #store_buttons img {
     display: block;
-    height: 55px;
+    height: 80px;
     width: 280px;
 }
 
