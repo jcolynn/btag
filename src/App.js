@@ -5,7 +5,7 @@ import Launch from './containers/Launch';
 import NotFound from './containers/NotFound';
 import Contact from './containers/Contact';
 import Login from './containers/Login';
-
+import Signup from './containers/Signup';
 
 class App extends Component {
   render() {
@@ -16,6 +16,7 @@ class App extends Component {
           <NotFound default />
           <Contact path="/contactus" />
           <Login path="/login" />
+          <Signup path="/signup" />
         </Router>
       </div>
     );
