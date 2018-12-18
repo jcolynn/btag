@@ -48,6 +48,9 @@ footer {
     padding-left: 75px;
     padding-top: 45px;
 }
+a:visited, a:link, a:hover, a:active {
+    color: white;
+}
 
 /* Center Logo in Footer */
 .logo_box {

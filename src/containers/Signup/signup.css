@@ -38,3 +38,9 @@ img {
 button {
     width: 50%;
 }
+
+@media screen and (max-width: 862px) {
+    .form_box {
+        width: 100%;
+    }
+}

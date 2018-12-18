@@ -24,7 +24,7 @@ export default function Footer() {
             {/* Social Icon Box */}
             <div className="social_box">
               <span id="social_icon">  
-                <i className="fab fa-facebook"></i>
+              <a href="https://www.facebook.com/tagurus/"><i className="fab fa-facebook"></i></a>
               </span>
               <span id="social_icon">  
                 <i className="fab fa-twitter-square"></i>
