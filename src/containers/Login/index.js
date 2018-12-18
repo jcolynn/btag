@@ -6,10 +6,10 @@ import './login.css';
 class Signup extends Component {
     render() { 
         return ( 
-            <div>   
+            <div>
+                {/**
                 <Header />
                 <div className="content">
-                    {/* Setup Form */}
                     <div className="form_box">
                         <h1>WELCOME BACK!</h1>
                         <form>
@@ -20,6 +20,10 @@ class Signup extends Component {
                         <a href="/">Forgot your password?</a>
                         <a href="/">Create an account</a>
                     </div>
+                </div>
+                */}   
+                <div className="test">
+
                 </div>
                 {/* Footer */}
                 <Footer />

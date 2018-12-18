@@ -1,5 +1,6 @@
 import React from 'react';
 import MediaQuery from 'react-responsive';
+import { Link } from '@reach/router';
 
 import "./footer.css";
 
@@ -9,11 +10,11 @@ export default function Footer() {
       <MediaQuery minWidth={960} >
         <footer>  
           <div className="top">
-            {/* Left Links */}
+            {/* Navigation */}
             <div className="link_box">
-              <p id="links">Create an Account</p>
-              <p id="links">How TAG Works</p>
-              <p id="links">Contact Us</p>
+              <a href="/signup">Create an Account</a>
+              <a href="/#whatis">How TAG Works</a>
+              <a href="/contactus">Contact Us</a>
             </div>
             
             {/* Footer Logo */}

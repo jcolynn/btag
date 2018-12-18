@@ -62,7 +62,7 @@ export default class Launch extends Component {
         </div>
 
 
-        <div className="expo_card">
+        <div id="whatis" className="expo_card">
           <h3>TEMPORARY STAFFING</h3>
           <div id="container">
             <div id="frame"> 

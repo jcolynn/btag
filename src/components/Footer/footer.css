@@ -3,6 +3,45 @@ footer {
     height: 196px;
     width: 100%;
 }
+a:visited, a:link, a:hover, a:active {
+    color: white;
+    text-decoration: none;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    height: 161px;
+}
+
+.link_box {
+    width: 176px;
+    padding-left: 75px;
+    padding-top: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 10pt;
+    line-height: 12pt;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Logo */
+.logo_box {
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+.logo {
+    width: 180px;
+    height: 140px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+}
+
 #social_icon {
     color: white;
     font-size: 43px;
@@ -16,19 +55,7 @@ footer {
     padding-top: 60px;
     width: 177px;
 }
-.copyright {
-    color: white;
-}
-.foot_font {
-    color:  #FFFFFF;
-}
-.top {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    height: 161px;
-}
+
 .bottom {
     display: block;
     position: relative;
@@ -37,30 +64,14 @@ footer {
     width: 100%;
     bottom: 0;
 }
-#links {
-    color: white;
-    font-size: 10pt;
-    line-height: 12pt;
-    font-family: 'Poppins', sans-serif;
-}
-.link_box {
-    width: 176px;
-    padding-left: 75px;
-    padding-top: 45px;
-}
-a:visited, a:link, a:hover, a:active {
+
+.copyright {
     color: white;
 }
 
-/* Center Logo in Footer */
-.logo_box {
-    padding-top: 10px;
-    box-sizing: border-box;
+.foot_font {
+    color:  #FFFFFF;
 }
-.logo {
-    width: 180px;
-    height: 140px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 0;
-}
+
+
+
