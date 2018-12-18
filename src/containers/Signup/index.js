@@ -9,17 +9,15 @@ class Signup extends Component {
             <div>   
                 <Header />
                 <div className="content">
-                    {/* Image Block */}
-                    <div className="image_box">   
-                        <img src={require('../../imgs/laptop.png')} />
-                    </div>
                     {/* Setup Form */}
                     <div className="form_box">
-
-                    </div>
-                    {/* Image Block */}
-                    <div className="image_box">
-                        <img src={require('../../imgs/coffee_clock.png')} />
+                        <h1>ACCOUNT SETUP</h1>
+                        <form>
+                            <input type="email" placeholder="Email" />
+                            <input type="password" placeholder="Password" />
+                            <input type="password" placeholder="Confirm Password" />
+                            <button>Submit</button>
+                        </form>
                     </div>
                 </div>
                 {/* Footer */}
