@@ -32,7 +32,6 @@ a:visited, a:link, a:hover, a:active {
 /* Logo */
 .logo_box {
     padding-top: 10px;
-    box-sizing: border-box;
 }
 .logo {
     width: 180px;
@@ -62,7 +61,6 @@ a:visited, a:link, a:hover, a:active {
     text-align: center;
     height: 35px;
     width: 100%;
-    bottom: 0;
 }
 
 .copyright {

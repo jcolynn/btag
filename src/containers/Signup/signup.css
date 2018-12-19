@@ -1,8 +1,4 @@
-Footer {
-    position: absolute;
-    bottom: 0;
-    max-width: 1440px;
-}
+
 .content {
     background-image: url("../../imgs/signup_back.jpg");
     background-repeat: no-repeat;
