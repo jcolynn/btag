@@ -1,6 +1,5 @@
 import React from 'react';
 import MediaQuery from 'react-responsive';
-import { Link } from '@reach/router';
 
 import "./footer.css";
 

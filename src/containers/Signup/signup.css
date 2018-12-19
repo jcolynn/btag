@@ -26,6 +26,9 @@ input {
     color: white;
     border: none;
     border-bottom: 2px solid #FFFFFF;
+    background-color: transparent;
+    height: 30px;
+    margin: 10px 5px;
 }
 h1 {
     text-align: center;
@@ -37,6 +40,9 @@ img {
 }
 button {
     width: 50%;
+    height: 50px;
+    background-color: #FFFFFF;
+    color: #00b7ed;
 }
 
 @media screen and (max-width: 862px) {
