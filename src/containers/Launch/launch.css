@@ -257,6 +257,7 @@ Join Cards
     display: inline-block;
     font-size: 14pt;
     font-family: 'Montserrat', sans-serif;
+    width: 212px;
 }
 
 @media screen and (max-width: 960px) {
