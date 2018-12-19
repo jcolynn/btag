@@ -1,0 +1,16 @@
+.page {
+    display: flex;
+    flex-direction: row;
+    height: 70vh;
+}
+#inputform {
+    padding-top: 100px;
+    width: 66.7%;
+    background-color: aqua;
+}
+#contactdetails {
+    padding-top: 100px;
+    width: 33.3%;
+    background-color: #00b7ed;
+    color: white;
+}
