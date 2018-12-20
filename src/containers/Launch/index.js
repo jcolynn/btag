@@ -8,7 +8,7 @@ export default class Launch extends Component {
   render() {
     return (
       <div>
-        <Header />
+        <Header type="hire" />
 
         {/* Hero Card */}
         <div id="hero"> 

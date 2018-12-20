@@ -29,28 +29,57 @@ header {
     margin-bottom: 15px;
 }
 
-/* Link Styles for Desktop Viewport */
-#left_links {
-    width: 250px;
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    justify-content: space-around;
-    align-content: center;
-    margin-left: 35px;
-    margin-top: 30px;
-
-}
-
-#right_links {
-    width: 250px;
-    margin-right: 35px;
-    margin-top: 30px;
-}
-
-.header_link {
-    color: #FFFFFF;
+/* Position and sizing of burger button */
+.bm-burger-button {
+    position: fixed;
+    width: 36px;
+    height: 30px;
+    right: 36px;
+    top: 20px;
+  }
+   
+  /* Color/shape of burger icon bars */
+  .bm-burger-bars {
+    background: #FFFFFF;
+  }
+   
+  /* Position and sizing of clickable cross button */
+  .bm-cross-button {
+    height: 48px;
+    width: 48px;
+  }
+   
+  /* Color/shape of close button cross */
+  .bm-cross {
+    background: #FFFFFF;
+  }
+   
+  /* General sidebar styles */
+  .bm-menu {
+    background: rgb(0,0,0,0.5);
+    padding: 1.5em .5em 0;
+    font-size: 2em;
     font-family: 'Montserrat', sans-serif;
-    font-size: 14pt;
-    text-decoration: none;
-}
+  }
+   
+  /* Morph shape necessary with bubble or elastic */
+  .bm-morph-shape {
+    fill: #373a47;
+  }
+   
+  /* Wrapper for item list */
+  .bm-item-list {
+    color: #FFFFFF;
+    padding: 0.8em;
+    text-align: end;
+  }
+   
+  /* Individual item */
+  .bm-item {
+    display: inline-block;
+  }
+   
+  /* Styling of overlay */
+  .bm-overlay {
+    background: rgba(0, 0, 0, 0.3);
+  }
