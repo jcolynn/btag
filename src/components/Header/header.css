@@ -1,22 +1,50 @@
 header {
-    background-color: rgb(0,0,0,0.5);
-    color: #FFFFFF;
-    position: fixed;
-    top: 0;
-    height: 80px;
-    width: 100%;
-    max-width: 1440px;
-    padding: 0;
-    margin-right: auto;
-    margin-left: auto;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-content: center;
-    box-sizing: border-box;
+  background-color: rgb(0,0,0,0.5);
+  color: #FFFFFF;
+  position: fixed;
+  top: 0;
+  height: 80px;
+  width: 100%;
+  max-width: 1440px;
+  padding: 0;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-content: center;
+  box-sizing: border-box;
 }
-
+/* Main Logo */
+.logo-box {
+  width: calc(100% / 3);
+}
+.head_logo {
+  display: block;
+  height: 50px;
+  width: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.menu-item-full {
+  display: block;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: calc(100% / 4);
+  text-align: center;
+}
+.menu-box {
+  width: calc(100% / 3);
+  display: flex;
+  flex-direction: row;
+}
+.right {
+  flex-direction: row-reverse;
+}
 
 
 /******
@@ -29,66 +57,47 @@ hr {
   color: #FFFFFF;
   padding: 0;
 }
-
-/* Main Logo */
-.head_logo {
-    display: block;
-    height: 50px;
-    width: 100px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-
 /* Position and sizing of burger button */
 .bm-burger-button {
-    position: fixed;
-    width: 36px;
-    height: 30px;
-    right: 36px;
-    top: 20px;
-  }
-   
-  /* Color/shape of burger icon bars */
-  .bm-burger-bars {
-    background: #FFFFFF;
-  }
-   
-  /* Position and sizing of clickable cross button */
-  .bm-cross-button {
-    height: 48px;
-    width: 48px;
-  }
-   
-  /* Color/shape of close button cross */
-  .bm-cross {
-    background: #FFFFFF;
-  }
-   
-  /* General sidebar styles */
-  .bm-menu {
-    background: rgb(0,0,0,0.7);
-    padding: 1.5em .5em;
-    font-size: 1.6em;
-    font-family: 'Montserrat', sans-serif;
-  }
-
-  /* Wrapper for item list */
-  .bm-item-list {
-    color: #FFFFFF;
-    padding: 1.4em 0.8em;
-    text-align: end;
-  }
-   
-  /* Individual item */
-  .bm-item {
-    display: inline-block;
-    margin-top: 15px;
-    margin-bottom: 15px;
-  }
-   
-  /* Styling of overlay */
-  .bm-overlay {
-    background: rgba(0, 0, 0, 0.3);
-  }
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  right: 36px;
+  top: 20px;
+}
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #FFFFFF;
+}
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 48px;
+  width: 48px;
+}
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #FFFFFF;
+}
+/* General sidebar styles */
+.bm-menu {
+  background: rgb(0,0,0,0.7);
+  padding: 1.5em .5em;
+  font-size: 1.6em;
+  font-family: 'Montserrat', sans-serif;
+}
+/* Wrapper for item list */
+.bm-item-list {
+  color: #FFFFFF;
+  padding: 1.4em 0.8em;
+  text-align: end;
+}
+/* Individual item */
+.bm-item {
+  display: inline-block;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}

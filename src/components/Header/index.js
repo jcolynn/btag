@@ -10,12 +10,14 @@ export default function Header() {
     <div> 
       <header>  
         <MediaQuery minWidth={960}>
-          <div> 
+          <div className="menu-box"> 
             <a id="home" className="menu-item-full" href="/">HOME</a>
             <a id="contactus" className="menu-item-full" href="/contactus">CONTACT US</a>
           </div>
-          <img className="head_logo" src={require("../../imgs/logo_white.png")} alt="White Colored Logo"/>
-          <div>
+          <div className="logo-box">
+            <img className="head_logo" src={require("../../imgs/logo_white.png")} alt="White Colored Logo"/>
+          </div>
+          <div className="menu-box right">
             <a id="login" className="menu-item-full" href="/login">LOGIN</a>
           </div>
         </MediaQuery>
