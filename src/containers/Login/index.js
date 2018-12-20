@@ -1,35 +1,35 @@
 import React, { Component } from 'react'
+import MediaQuery from 'react-responsive';
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import './login.css';
 
-class Signup extends Component {
+class Login extends Component {
     render() { 
         return ( 
             <div>
-                {/**
                 <Header />
-                <div className="content">
+                <div className="login-content">
                     <div className="form_box">
                         <h1>WELCOME BACK!</h1>
                         <form>
-                            <input type="email" placeholder="Email" />
-                            <input type="password" placeholder="Password" />
-                            <button>Login</button>
+                            <input className="white-text" type="email" placeholder="Email" />
+                            <input className="white-text" type="password" placeholder="Password" />
+                            <button className="login-btn">Login</button>
                         </form>
-                        <a href="/">Forgot your password?</a>
-                        <a href="/">Create an account</a>
+                        <div className="act-links">
+                            <a href="/contactus">Forgot your password?</a>
+                            <a href="/signup">Create an account</a>
+                        </div>
                     </div>
                 </div>
-                */}   
-                <div className="test">
-
-                </div>
                 {/* Footer */}
-                <Footer />
+                <MediaQuery minWidth={960}>
+                    <Footer />
+                </MediaQuery>
             </div>
         );
     }
 }
  
-export default Signup;
+export default Login;
