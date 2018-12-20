@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { navigate } from '@reach/router';
 import Footer from '../../components/Footer';
 import Header from '../../components/Header';
 import './launch.css';
@@ -18,8 +19,8 @@ export default class Launch extends Component {
             <p>Connecting temp agencies to hiring businesses.</p>
           </div>
           <div className="btn_container"> 
-            <button>I'M A TEMP AGENCY</button>
-            <button>I WANT TO HIRE</button>
+            <button onClick={() => navigate('/signup')}>I'M A TEMP AGENCY</button>
+            <button onClick={() => navigate('/signup')}>I WANT TO HIRE</button>
           </div>
         </div>
 
@@ -88,7 +89,7 @@ export default class Launch extends Component {
         {/*Seperator */}
         <div className="join_card">
           <p>See the difference <strong>TAG</strong> can make in your office.</p>
-          <button>Let's Get Started</button>
+          <button onClick={() => navigate('/signup')}>Let's Get Started</button>
         </div>
 
 
@@ -117,7 +118,7 @@ export default class Launch extends Component {
         {/*Seperator */}
         <div className="join_card">
           <p><strong>TAG</strong> makes finding staff simple.</p>
-          <button>Let's Get Started</button>
+          <button onClick={() => navigate('/signup')}>Let's Get Started</button>
         </div>
 
         <Footer />

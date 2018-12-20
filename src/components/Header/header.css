@@ -15,7 +15,19 @@ header {
     justify-content: space-between;
     align-content: center;
     box-sizing: border-box;
+}
 
+
+
+/******
+Styles for Sidebar Nav in mobile views
+******/
+hr {
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  color: #FFFFFF;
+  padding: 0;
 }
 
 /* Main Logo */
@@ -56,27 +68,24 @@ header {
    
   /* General sidebar styles */
   .bm-menu {
-    background: rgb(0,0,0,0.5);
-    padding: 1.5em .5em 0;
-    font-size: 2em;
+    background: rgb(0,0,0,0.7);
+    padding: 1.5em .5em;
+    font-size: 1.6em;
     font-family: 'Montserrat', sans-serif;
   }
-   
-  /* Morph shape necessary with bubble or elastic */
-  .bm-morph-shape {
-    fill: #373a47;
-  }
-   
+
   /* Wrapper for item list */
   .bm-item-list {
     color: #FFFFFF;
-    padding: 0.8em;
+    padding: 1.4em 0.8em;
     text-align: end;
   }
    
   /* Individual item */
   .bm-item {
     display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 15px;
   }
    
   /* Styling of overlay */
