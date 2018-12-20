@@ -48,7 +48,7 @@ export default class Launch extends Component {
           </div>
         </div>
 
-        <div id="review_card" className="bbackground">
+        <div id="review_card" className="review-bg">
           <div className="review_contents"> 
             <div className="info"> 
               <h5>Emily, 21</h5>
@@ -58,7 +58,7 @@ export default class Launch extends Component {
               <span>&#10077;</span>With TAG, I can find more jobs for my business and my customers like the interface and how easy is is to use.<span>&#10078;</span>
             </blockquote>
           </div>
-          <img src={require('../../imgs/girl_review.png')} alt="Girl Review" className="round_img white"/>
+          <img src={require('../../imgs/girl_review.png')} alt="Girl Review" className="round_img white mob-border"/>
         </div>
 
 

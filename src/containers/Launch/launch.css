@@ -147,7 +147,7 @@ Review Cards
 .info {
     margin-left: 40px;
 }
-.bbackground {
+.review-bg {
     background-color: #00b7ed;
     color: #FFFFFF;
 }
@@ -264,9 +264,11 @@ Join Cards
     body {
         width: 100%;
     }
+    /* Hero */
     #hero {
         width: 100%;
-        height: 304px;
+        height: 250px;
+        padding-top: 90px;
     }
     #hero img {
         width: 116px;
@@ -296,23 +298,75 @@ Join Cards
     #app_card {
         display: none;
     }
+
+    /* Review Cards */
+    .review-bg {
+        background-color: #FFFFFF;
+        color: #00b7ed;
+    }
+    .mob-border {
+        border: 2px solid #00b7ed;
+        margin-right: 10px;
+    }
+    .review_contents {
+        font-family: 'Montserrat';
+        font-size: 10pt;
+        line-height: 10pt;
+        width: 300px;
+    }
+    .round_img {
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;
+        
+    }
+    #review_card h6 {
+        font-size: 10pt;
+    }
+    .blue {
+        border: 2px solid #00b7ed;
+        margin-left: 10px;
+    }
+    #review_card h5 {
+        font-size: 12pt;
+    }
+    #review_card span {
+        display: inline-block;
+        font-family: 'Monoserrat';
+        font-size: 12pt;
+    }
+    .info {
+        margin-left: 40px;
+    }
+    #review_card {
+        height: 215px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    /* Expo Cards */
     #container {
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
-        flex-grow: 1;
-        justify-content: space-evenly;
+        justify-content: center;
         align-items: center;
-        height: 90vh;
+        height: calc(100% - 82px);
     }
     
     #container p {
-        font-size: 14pt;
+        font-size: 12pt;
         width: 252px;
+        text-align: center;
     }
     #container img { 
-        height: 58px;
-        width: 67px;
+        height: 70px;
+        width: 80px;
     }
     .expo_card {
         background-image: url("../../imgs/workers.jpg");
@@ -327,8 +381,52 @@ Join Cards
         line-height: 24pt;
     }
     #frame {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         height: 110px;
-        width: 252px;
+        width: 100%;
+        text-align: center;
     }
+
+    /* Join Cards */
+    .join_card {
+        height: 210px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        background-color: #00b7ed;
+    }
+    .join_card p {
+        font-family: 'Montserrat', sans-serif;
+        color: #FFFFFF;
+        font-size: 16pt;
+        text-align: center;
+        width: 100%;
+        margin: 0;
+    }
+    
+    .join_card button {
+        color: #00b7ed;
+        text-align: center;
+        background-color: #FFFFFF;
+        border: none;
+        border-radius: 12px;
+        padding: 20px;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14pt;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        width: 212px;
+    }
+    
+    
 }
+
+
+
+
+
