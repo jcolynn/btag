@@ -9,17 +9,24 @@ export default class Contact extends Component {
         <Header />
         <div class="page">
           <div id="inputform">
-            <form>
-              <input type="text" placeholder="To" name="To" />
-              <input type="text" placeholder="Subject" name="Subject" />
-              <label for="description">Description</label>
-              <input id="description" type="textarea" />
+            <h1 className="label">CONTACT</h1>
+            <form className="contact-form">
+              <input className="blue-text" type="text" placeholder="To" name="To" />
+              <input className="blue-text" type="text" placeholder="Subject" name="Subject" />
+              <div className="ta-container">
+                <p for="description">Description:</p>
+                <textarea className="description" id="description"  />
+              </div>
+              <button className="send-btn">Send</button>
             </form>
           </div>
-          <div id="contactdetails">
+          <div className="contactdetails">
             <h1>CONTACT</h1>
-            <span>Email: tag@email.com</span>{" "}
-            <span>Phone: (098)765-4321</span>
+            <img className="contact-logo" src={require('../../imgs/contact_logo.png')} alt="Company Logo" />
+            <div className="details"> 
+              <p>Email: <strong>tag@email.com</strong></p>
+              <p>Phone: <strong>(098)765-4321</strong></p>
+            </div>
           </div>
         </div>
         <Footer />
